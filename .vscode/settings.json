@@ -2,6 +2,8 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "even or odd.C": "cpp",
-        "o.C": "cpp"
+        "o.C": "cpp",
+        "C.C": "cpp",
+        "CIRCLE.C": "cpp"
     }
 }
