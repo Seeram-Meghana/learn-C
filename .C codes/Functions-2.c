@@ -1,14 +1,22 @@
 #include<stdio.h>
-void printhello();
-void printgoodbye();
+void namaste();
+void bonjour();
 int main() {
-    printhello();
-    printgoodbye();
+    printf("enter f for french & i for india: ");
+    char ch;
+    scanf("%c", &ch);
+    if(ch == 'i')
+    {
+        namaste();
+    }
+    else {
+        bonjour();
+    }
     return 0;
 }
-void printhello() {
-    printf("hello");
+void namaste() {
+    printf("namaste");
 }
-void printgoodbye() {
-    printf("goodbye");
+void bonjour() {
+    printf("bonjour");
 }
